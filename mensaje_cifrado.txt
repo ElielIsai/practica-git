@@ -1,0 +1,30 @@
+INSTRUCCIONES:
+Cada línea representa una ciudad cifrada y su superficie en km².
+Formato:
+- Letras: A=1, B=2, ..., Z=26
+- Espacios: representados como '_'
+- Números reales (km²): representados como 'n1234'
+- Número de habitantes: representados como letras que se convertirán en números, 
+	usando el código: A=1, B=2, ..., I=9, J=0
+
+DATOS CIFRADOS:
+13_5_24_9_3_15:n1489:CCBBAA
+2_1_18_3_5_12_15_14_1:n101:BBBAAC
+3_1_18_1_3_1_19:n1290:ABCCJ
+12_9_13_1:n888:HHHH
+2_21_5_14_15_19_1_9_18_5_19:n1750:ACDEFG
+13_15_14_20_5_22_9_4_5_15:n1200:ABJJJ
+3_21_5_2_1:n950:IJEA
+16_1_18_9_19:n1050:AJJJJ
+12_15_14_4_18_5_19:n1320:ACDJJ
+3_15_18_4_15_2_1:n680:FGAAB
+
+SALIDA DE DATOS:
+1. Muestra las ciudades con formato: Ciudad: km², Población: 000000.
+	Ejemplo: MEXICO: 1489 km², Población: 332211
+2. Agrupa las ciudades en tres rangos:
+	100–999 km²
+	1000–1299 km²
+	1300–2000 km²
+3. Muestra una lista con las ciudades entre 980 km² y 1500 km² 
+	donde también la población sea mayor a 20,000 habitantes.
